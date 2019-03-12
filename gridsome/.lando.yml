@@ -1,0 +1,19 @@
+name: nolan-tech-app
+recipe: custom
+proxy:
+  appserver:
+    - nolantechapp.lndo.site
+services:
+  appserver:
+    type: node
+    command: "gridsome develop"
+    install_dependencies_as_me:
+      - npm install --global @gridsome/cli
+tooling:
+  npm:
+    type: node
+    service: appserver
+  gridsome:
+    type: node
+    service: appserver
+    cmd: /app/node_modules/.bin/gridsome
