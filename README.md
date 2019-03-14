@@ -25,4 +25,4 @@ Contenta Backend: [https://nolantech.lndo.site/](https://nolantech.lndo.site/)
 
 Gridsome-generated Site: [https://nolantechapp.lndo.site/](https://nolantechapp.lndo.site/)
 
-GraphSQL Playgroud: [https://nolantechapp.lndo.site/___explore](https://nolantechapp.lndo.site/___explore)
+GraphQL Playgroud: [https://nolantechapp.lndo.site/___explore](https://nolantechapp.lndo.site/___explore)
