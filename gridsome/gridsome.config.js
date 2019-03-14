@@ -11,7 +11,12 @@ module.exports = {
       use: "@gridsome/source-drupal",
       options: {
         baseUrl: "https://nolan-tech.lndo.site",
-        apiBase: "api"
+        apiBase: "api",
+        requestConfig: {
+          headers: {
+            Authorization: process.env.CONSUMER_ID
+          }
+        }
       }
     }
   ]

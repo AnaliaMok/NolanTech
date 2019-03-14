@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd contenta && lando rebuild -y
-cd gridsome && lando rebuild -y
-cd gridsome && lando develop
+cd contenta && lando start
+cd ../gridsome && lando start
+lando develop

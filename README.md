@@ -21,7 +21,7 @@ A fake company's website.
     - When necessary, `lando gridsome` has also been made available to run gridsome's cli commands.
 
 ### Available URLS
-Contenta Backend: [https://nolantech.lndo.site/](https://nolantech.lndo.site/)
+Contenta Backend: [https://nolan-tech.lndo.site](https://nolan-tech.lndo.site)
 
 Gridsome-generated Site: [https://nolantechapp.lndo.site/](https://nolantechapp.lndo.site/)
 
