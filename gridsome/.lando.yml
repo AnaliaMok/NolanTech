@@ -12,6 +12,8 @@ tooling:
   npm:
     type: node
     service: appserver
+  yarn:
+    service: appserver
   gridsome:
     service: appserver
   develop:
