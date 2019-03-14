@@ -19,5 +19,8 @@ A fake company's website.
   - __For the first time you set up this site__, navigate to the gridsome folder and run `lando yarn install` to install dependencies.
   - To startup the frontend, run `lando develop`. This will startup gridsome's development server.
   - When necessary, `lando gridsome` has also been made available to run gridsome's cli commands.
-5. The front facing app will be made available at [https://nolantechapp.lndo.site/](https://nolantechapp.lndo.site/)
-6. The backend will be available at [https://nolantech.lndo.site/](https://nolantech.lndo.site/)
+
+### Available URLS
+Contenta Backend: [https://nolantech.lndo.site/](https://nolantech.lndo.site/)
+Gridsome-generated Site: [https://nolantechapp.lndo.site/](https://nolantechapp.lndo.site/)
+GraphSQL Playgroud: [https://nolantechapp.lndo.site/___explore](https://nolantechapp.lndo.site/___explore)
