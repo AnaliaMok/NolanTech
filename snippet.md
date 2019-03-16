@@ -4,6 +4,8 @@ query drupalTutorials {
     edges {
       node {
         id
+        title
+        slug
       }
     }
   }
