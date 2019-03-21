@@ -1,0 +1,5 @@
+name: 'nolanextensions'
+type: module
+description: 'Nolan Extensions'
+core: 8.x
+package: 'Custom'

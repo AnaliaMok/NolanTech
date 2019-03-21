@@ -1,0 +1,14 @@
+
+# Car entity menu items definition
+entity.car_entity.collection:
+  title: 'Car entity list'
+  route_name: entity.car_entity.collection
+  description: 'List Car entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+car_entity.admin.structure.settings:
+  title: 'Car entity settings'
+  description: 'Configure Car entity entities'
+  route_name: car_entity.settings
+  parent: system.admin_structure
