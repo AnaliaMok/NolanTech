@@ -5,7 +5,7 @@ A fake company's website.
 ## Technologies
 
 - [Contenta CMS](https://www.contentacms.org/)
-- [Gridsome](https://gridsome.org/)
+- [NuxtJS](https://nuxtjs.org)
 - [Lando](https://docs.devwithlando.io/) This project was created using version v3.0.0-rc.13
 
 ## Local Setup
