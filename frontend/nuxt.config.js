@@ -44,6 +44,7 @@ export default {
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+    debug: process.env.APP_ENV !== 'production'
   },
 
   /*
@@ -64,5 +65,13 @@ export default {
         })
       }
     }
+  },
+
+  /**
+   * Environment Configuration
+   */
+  env: {
+    baseURL: process.env.API_URL || 'production.url', // TODO: Insert production url
+    CONSUMER_ID: process.env.CONSUMER_ID
   }
 }
