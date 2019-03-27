@@ -1,7 +1,11 @@
 <template>
   <div>
     <h2>Articles</h2>
-    <pre>{{ title }}</pre>
+    <ul>
+      <li v-for="article in articles" :key="article.id">
+        <strong>{{ article.attributes.title }}</strong>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -13,9 +17,7 @@ export default {
       .get('/api/node/article', {})
       .then(res => {
         return {
-          // title: res.data.data.attributes.title,
-          // body: res.data.data.attributes.body.value
-          title: res
+          articles: res.data.data
         }
       })
       .catch(err => {
