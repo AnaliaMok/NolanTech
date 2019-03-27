@@ -1,0 +1,5 @@
+name: 'Nolan Normalizers'
+type: module
+description: 'API Response normalizers'
+core: 8.x
+package: 'Custom'

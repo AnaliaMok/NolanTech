@@ -1,4 +1,5 @@
 import pkg from './package'
+require('dotenv').config()
 
 export default {
   mode: 'universal',
@@ -37,6 +38,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
     '@nuxtjs/pwa'
   ],
   /*
@@ -44,7 +46,9 @@ export default {
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    debug: process.env.APP_ENV !== 'production'
+    debug: process.env.APP_ENV !== 'production',
+    baseURL: process.env.API_URL,
+    https: true
   },
 
   /*

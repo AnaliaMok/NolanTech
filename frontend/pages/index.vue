@@ -2,12 +2,8 @@
   <section class="container">
     <div>
       <logo />
-      <h1 class="title">
-        frontend
-      </h1>
-      <h2 class="subtitle">
-        Front end to contenta managed app
-      </h2>
+      <h1 class="title">frontend</h1>
+      <h2 class="subtitle">Front end to contenta managed app</h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green"
           >Documentation</a
@@ -18,6 +14,7 @@
           class="button--grey"
           >GitHub</a
         >
+        <nuxt-link to="/articles">Articles</nuxt-link>
       </div>
     </div>
   </section>

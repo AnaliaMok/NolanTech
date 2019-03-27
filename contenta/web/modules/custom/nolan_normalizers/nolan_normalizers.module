@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains nolan_normalizers.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function nolan_normalizers_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the nolan_normalizers module.
+    case 'help.page.nolan_normalizers':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('API Response normalizers') . '</p>';
+      return $output;
+
+    default:
+  }
+}

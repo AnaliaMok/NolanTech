@@ -1,0 +1,14 @@
+{
+  "name": "drupal/nolan_normalizers",
+  "type": "drupal-module",
+  "description": "API Response normalizers",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/nolan_normalizers",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/nolan_normalizers",
+    "source": "http://cgit.drupalcode.org/nolan_normalizers"
+  },
+  "require": { }
+}
