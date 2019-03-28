@@ -2,7 +2,9 @@
   <section class="container">
     <div>
       <h1 class="title">Frontend</h1>
-      <h2 class="subtitle">Front end to contenta managed app</h2>
+      <h2 class="title">Frontend</h2>
+      <h3 class="title">Frontend</h3>
+      <h4 class="title">Frontend</h4>
     </div>
   </section>
 </template>
