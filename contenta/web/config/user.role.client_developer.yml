@@ -1,0 +1,13 @@
+uuid: 0f64f0e0-af60-4c79-9c8c-c2ff1b4072d5
+langcode: en
+status: true
+dependencies: {  }
+id: client_developer
+label: 'Client developer'
+weight: 4
+is_admin: null
+permissions:
+  - 'access openapi api docs'
+  - 'access user profiles'
+  - 'administer simple_oauth entities'
+  - 'grant simple_oauth codes'

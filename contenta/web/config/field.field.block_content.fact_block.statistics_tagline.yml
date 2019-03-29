@@ -1,0 +1,21 @@
+uuid: d29a010f-7bd8-404b-b961-0e0a92277f24
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.fact_block
+    - field.storage.block_content.statistics_tagline
+  module:
+    - text
+id: block_content.fact_block.statistics_tagline
+field_name: statistics_tagline
+entity_type: block_content
+bundle: fact_block
+label: 'Statistics Tagline'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

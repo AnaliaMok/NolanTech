@@ -1,0 +1,47 @@
+uuid: 966cb0b3-a000-49d3-9032-9c0d2fd7285e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.fact_block
+    - field.field.block_content.fact_block.statistics_number
+    - field.field.block_content.fact_block.statistics_tagline
+  module:
+    - text
+id: block_content.fact_block.default
+targetEntityType: block_content
+bundle: fact_block
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 3
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  statistics_number:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: 'Enter Statistical Value'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  statistics_tagline:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: 'Enter following tagline'
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden: {  }

@@ -35,7 +35,6 @@ export default {
     display: flex;
     height: 100%;
     flex-flow: column nowrap;
-    // align-items: center;
     justify-content: center;
 
     h2 {
@@ -43,6 +42,7 @@ export default {
     }
 
     p {
+      font-size: 1.8rem;
       margin-top: 1rem;
     }
   }

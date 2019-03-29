@@ -1,0 +1,17 @@
+uuid: de76ebd0-3640-4f2e-8e2f-6a5c51875fa7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Page
+type: page
+description: 'Basic Page Type.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

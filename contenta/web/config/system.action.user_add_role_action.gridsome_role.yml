@@ -1,0 +1,14 @@
+uuid: c7741eb2-ee25-4e86-ba71-6bfd136bc366
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gridsome_role
+  module:
+    - user
+id: user_add_role_action.gridsome_role
+label: 'Add the gridsome_role role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gridsome_role

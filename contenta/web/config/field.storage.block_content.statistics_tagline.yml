@@ -1,0 +1,19 @@
+uuid: 7f362459-98ef-46ce-be16-3b3d4dabe6ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.statistics_tagline
+field_name: statistics_tagline
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

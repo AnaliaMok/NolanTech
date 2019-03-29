@@ -1,0 +1,32 @@
+uuid: 326844d3-5860-499a-aa6f-b27686dda3e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.fact_block
+    - field.field.block_content.fact_block.statistics_number
+    - field.field.block_content.fact_block.statistics_tagline
+  module:
+    - text
+id: block_content.fact_block.default
+targetEntityType: block_content
+bundle: fact_block
+mode: default
+content:
+  statistics_number:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  statistics_tagline:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

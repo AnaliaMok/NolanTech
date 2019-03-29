@@ -1,0 +1,14 @@
+uuid: 28a96871-bd02-4ff9-882c-aebfbd4b3951
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.client_developer
+  module:
+    - user
+id: user_remove_role_action.client_developer
+label: 'Remove the Client developer role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: client_developer

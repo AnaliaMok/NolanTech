@@ -1,0 +1,8 @@
+uuid: 1ee636da-9002-4356-ba89-b879e0c1e56b
+langcode: en
+status: true
+dependencies: {  }
+id: fact_block
+label: 'Fact Block'
+revision: 0
+description: 'Simple block containing a numeric fact and a short line following it.'

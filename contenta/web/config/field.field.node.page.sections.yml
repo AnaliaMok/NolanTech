@@ -1,0 +1,31 @@
+uuid: 4fac9947-0efa-44a4-b3fb-981dc53b5746
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.sections
+    - node.type.page
+    - paragraphs.paragraphs_type.hero_header
+  module:
+    - entity_reference_revisions
+id: node.page.sections
+field_name: sections
+entity_type: node
+bundle: page
+label: Sections
+description: 'Add paragraph types to build your page'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      hero_header: hero_header
+    target_bundles_drag_drop:
+      hero_header:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

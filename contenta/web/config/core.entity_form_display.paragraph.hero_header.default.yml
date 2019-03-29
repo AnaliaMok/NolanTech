@@ -1,0 +1,32 @@
+uuid: 612b3e0b-5693-43c6-af41-4c03f0f47e92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_header.body
+    - field.field.paragraph.hero_header.title
+    - paragraphs.paragraphs_type.hero_header
+id: paragraph.hero_header.default
+targetEntityType: paragraph
+bundle: hero_header
+mode: default
+content:
+  body:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

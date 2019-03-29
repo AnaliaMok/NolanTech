@@ -1,0 +1,9 @@
+uuid: e4036e61-1c80-4ef1-9951-18b3a96e45c3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Main Pages'
+vid: main_pages
+description: 'Vocabulary defining available high level pages'
+hierarchy: 0
+weight: 0

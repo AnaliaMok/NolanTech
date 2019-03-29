@@ -1,0 +1,16 @@
+uuid: 1c06ff07-7129-4063-a563-3a88932f5e77
+langcode: en
+status: true
+dependencies: {  }
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access openapi api docs'
+  - 'access toolbar'
+  - 'execute graphql requests'
+  - 'issue subrequests'
+  - 'view media'
+  - 'use jsonrpc services'

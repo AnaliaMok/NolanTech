@@ -1,0 +1,9 @@
+uuid: dc00b9e0-6be7-4bc3-bbc6-70e19b816bfb
+langcode: en
+status: true
+dependencies: {  }
+id: gridsome_role
+label: gridsome_role
+weight: 5
+is_admin: null
+permissions: {  }

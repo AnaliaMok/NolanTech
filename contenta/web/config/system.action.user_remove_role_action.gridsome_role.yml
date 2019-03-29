@@ -1,0 +1,14 @@
+uuid: ab5ec312-f975-4f42-8baa-e3552cba1d2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gridsome_role
+  module:
+    - user
+id: user_remove_role_action.gridsome_role
+label: 'Remove the gridsome_role role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gridsome_role

@@ -2,7 +2,7 @@
   <section>
     <Hero :title="heroTitle" :body="heroBody" />
     <section class="container">
-      <div>
+      <div style="padding:4rem 0;">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
           ducimus incidunt sapiente distinctio? Odit iure, explicabo asperiores
