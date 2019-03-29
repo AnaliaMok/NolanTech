@@ -22,6 +22,7 @@ h4,
 h5,
 h6 {
   font-family: $header-font;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -43,4 +44,9 @@ h4 {
 .container {
   margin: 0 auto;
   width: 80%;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
 }

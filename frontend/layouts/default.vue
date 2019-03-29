@@ -15,4 +15,10 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+#__layout {
+  & > div {
+    padding-top: 90.8px;
+  }
+}
+</style>

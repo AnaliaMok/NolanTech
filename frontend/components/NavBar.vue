@@ -18,6 +18,10 @@ export default {}
 
 <style lang="scss">
 .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: $darker-slate;
   padding: 2rem 0;
 
@@ -34,16 +38,23 @@ export default {}
       font-weight: 600;
       font-size: 1.8rem;
       text-decoration: none;
+      transition: color 0.3s;
 
       &:not(:first-child) {
         padding: 1.5rem;
+      }
+
+      &:hover {
+        color: $aeroblue;
       }
     }
   }
 
   &__brand {
-    max-width: 6rem;
     margin-right: auto;
+    img {
+      width: 6rem;
+    }
   }
 }
 </style>
