@@ -26,24 +26,34 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: $text-3xl;
 }
 
 h2 {
-  font-size: 4.8rem;
+  font-size: $text-2xl;
 }
 
 h3 {
-  font-size: 3.6rem;
+  font-size: $text-xl;
 }
 
 h4 {
-  font-size: 2.4rem;
+  font-size: $text-lg;
 }
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  padding: 0 1rem;
+  width: 100%;
+
+  @media screen and (min-width: $screen-md) {
+    padding: 0;
+    width: 90%;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    width: 80%;
+  }
 }
 
 p {

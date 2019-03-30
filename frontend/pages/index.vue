@@ -1,7 +1,6 @@
 <template>
   <section>
     <Hero :title="heroTitle" :body="heroBody" />
-    <nuxt-link to="/articles">Articles</nuxt-link>
     <section class="container">
       <div style="padding:4rem 0;">
         <p>

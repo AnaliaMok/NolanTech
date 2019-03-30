@@ -12,6 +12,11 @@
 <script>
 export default {
   components: {},
+  data() {
+    return {
+      articles: []
+    }
+  },
   async asyncData({ app }) {
     const data = await app.$axios
       .get('/node/article', {})
