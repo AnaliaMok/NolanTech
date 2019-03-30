@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.page_type
     - field.field.node.page.sections
     - node.type.page
   module:
@@ -26,6 +27,14 @@ content:
     weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
+  page_type:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   sections:
     type: entity_reference_revisions_entity_view

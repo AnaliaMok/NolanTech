@@ -1,0 +1,29 @@
+uuid: 6ed6ca5d-68f7-48e9-a0e7-f42301ec1d2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.page_type
+    - node.type.page
+    - taxonomy.vocabulary.main_pages
+id: node.page.page_type
+field_name: page_type
+entity_type: node
+bundle: page
+label: 'Page Type'
+description: 'Supply a specific page type in order to attach this page to one of the high-level pages, like the Home page or main Work page'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      main_pages: main_pages
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

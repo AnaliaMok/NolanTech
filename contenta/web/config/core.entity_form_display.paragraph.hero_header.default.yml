@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.hero_header.body
+    - field.field.paragraph.hero_header.is_centered
     - field.field.paragraph.hero_header.title
     - paragraphs.paragraphs_type.hero_header
 id: paragraph.hero_header.default
@@ -12,15 +13,22 @@ bundle: hero_header
 mode: default
 content:
   body:
-    weight: 1
+    weight: 2
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: string_textarea
     region: content
-  title:
+  is_centered:
     weight: 0
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  title:
+    weight: 1
     settings:
       size: 60
       placeholder: ''

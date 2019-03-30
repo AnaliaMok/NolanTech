@@ -1,0 +1,23 @@
+uuid: 4fea8cf6-8495-42b5-a26d-8b49b65988e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.is_centered
+    - paragraphs.paragraphs_type.hero_header
+id: paragraph.hero_header.is_centered
+field_name: is_centered
+entity_type: paragraph
+bundle: hero_header
+label: 'Is Centered?'
+description: 'Should all hero text be centered?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

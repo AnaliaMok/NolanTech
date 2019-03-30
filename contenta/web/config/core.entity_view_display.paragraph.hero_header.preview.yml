@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.paragraph.preview
     - field.field.paragraph.hero_header.body
+    - field.field.paragraph.hero_header.is_centered
     - field.field.paragraph.hero_header.title
     - paragraphs.paragraphs_type.hero_header
 id: paragraph.hero_header.preview
@@ -12,13 +13,16 @@ targetEntityType: paragraph
 bundle: hero_header
 mode: preview
 content:
-  body:
+  is_centered:
+    type: boolean
     weight: 1
-    label: visually_hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
     region: content
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
   title:
     weight: 0
     label: visually_hidden
@@ -27,4 +31,5 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-hidden: {  }
+hidden:
+  body: true
