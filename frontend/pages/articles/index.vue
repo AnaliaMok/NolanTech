@@ -14,7 +14,7 @@ export default {
   components: {},
   async asyncData({ app }) {
     const data = await app.$axios
-      .get('/api/node/article', {})
+      .get('/node/article', {})
       .then(res => {
         return {
           articles: res.data.data

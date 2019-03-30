@@ -27,7 +27,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#73f5c8' },
 
   /*
    ** Global CSS
@@ -60,8 +60,11 @@ export default {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
     debug: process.env.APP_ENV !== 'production',
-    baseURL: process.env.API_URL,
-    https: true
+    baseURL: process.env.API_URL || 'production.url', // TODO: Insert production url
+    credentials: true,
+    init(axios) {
+      axios.defaults.withCredentials = true
+    }
   },
 
   /*
@@ -88,7 +91,6 @@ export default {
    * Environment Configuration
    */
   env: {
-    baseURL: process.env.API_URL || 'production.url', // TODO: Insert production url
     CONSUMER_ID: process.env.CONSUMER_ID
   }
 }
